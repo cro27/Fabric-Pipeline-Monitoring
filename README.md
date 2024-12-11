@@ -1,5 +1,5 @@
-# Fabric-Pipeline-Monitoring
-Repository for programmatic monitoring of Fabric Data Factory pipelines
+# Microsoft-Fabric-Pipeline-Monitoring
+Repository for programmatic monitoring of Microsoft Fabric Data Factory pipelines
 
 Currently, monitoring of Fabric pipelines is online only through the Fabric portal. 
 Workspace monitoring is coming soon and it is hoped that this will be used for programatic monitoring. 
