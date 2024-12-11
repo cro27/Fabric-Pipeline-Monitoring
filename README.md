@@ -19,4 +19,4 @@ In this example I have chosen to send the data to a file in the database but you
 
 ![image](https://github.com/user-attachments/assets/17674704-5925-411f-aa23-6e8ea3040bfe)
 
-The KQL script I have used can be found in 
+The KQL script I have used has been uploaded as kql.txt
