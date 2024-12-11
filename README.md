@@ -36,6 +36,8 @@ We can also setup a Power BI report on the table so that we have a monitoring da
 
 This one is rather rudimentary but you get the idea
 
-![image](https://github.com/user-attachments/assets/1a9714ae-99ad-490d-a135-1cd6ca411866)
+![image](https://github.com/user-attachments/assets/5a56b1d3-e497-4a30-b2de-6550744fc2da)
+
+
 
 
