@@ -1,5 +1,5 @@
 @concat(
-    '.set-or-append DFJobDetails with (folder="raw") <|
+    '.set-or-append DFPipelineDetails <|
 let pipeid = parse_json(```'
 , pipeline().RunId
 , '```);
