@@ -9,15 +9,17 @@ However, you can implement your own programmatic monitoring by capturing the out
 
 Using a simple pipeline with a copy activity as an example, we can take the On-Completion output of the activity and send it to a KQL Script activity for logging in a KQL database. We use the on-completion activity as it captures all exit states (fail, succeed, skip). The KQL database and the monitoring table have been pre-created. 
 
-![image](https://github.com/user-attachments/assets/b3900f99-94d8-4eb5-a899-8175a60586ef)
+![image](https://github.com/user-attachments/assets/2b72cd93-9b91-4eb3-9b00-7e9826d88fcd)
+
 
 After connecting to the KQL database we use the the pipeline expression builder to create the command. Using both System variables and Activity Outputs we can capture all the necessary information to monitor pipeline and activity execution. 
 
-![image](https://github.com/user-attachments/assets/dc7a80ed-67a5-460e-a005-65d31344bd4d)
+![image](https://github.com/user-attachments/assets/bf165477-d475-4120-9f99-193596ee10bb)
 
-In this example I have chosen to send the data to a table in a folder called raw in the database. 
+In this example I have chosen to send the data to a table called DFPipelineDetails in the database. 
 
-![image](https://github.com/user-attachments/assets/17674704-5925-411f-aa23-6e8ea3040bfe)
+![image](https://github.com/user-attachments/assets/79eb4f2c-f938-4087-8594-38f271bc4ee9)
+
 
 The KQL script I have used has been uploaded as kql.txt
 
@@ -25,11 +27,12 @@ The next step is to setup monitoring alerts.
 Creating a queryset that filters pipeline activities on their activity status we can setup alerts when they have failed. 
 You can adjust your sampling frequency and type of alert action to suit your needs. 
 
-![image](https://github.com/user-attachments/assets/d00eb76c-99b9-4c32-bfa9-0b35b05e3e71)
+![image](https://github.com/user-attachments/assets/b67e926d-eaad-439e-8cb9-32ad3f931623)
+
 
 We can also setup a Power BI report on the table so that we have a monitoring dashboard for our Fabric Data Factory Pipelines. 
 
-![image](https://github.com/user-attachments/assets/cc8784f4-abcb-4373-9caa-e91323f0cf39)
+![image](https://github.com/user-attachments/assets/bcfcdfbf-83be-4349-a084-e788ec3ed80b)
 
 This one is rather rudimentary but you get the idea
 
