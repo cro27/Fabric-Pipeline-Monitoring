@@ -28,6 +28,11 @@ You can adjust your sampling frequency and type of alert action to suit your nee
 ![image](https://github.com/user-attachments/assets/d00eb76c-99b9-4c32-bfa9-0b35b05e3e71)
 
 We can also setup a Power BI report on the table so that we have a monitoring dashboard for our Fabric Data Factory Pipelines. 
-![image](https://github.com/user-attachments/assets/d6407708-d3b0-49ea-9600-b2c09809b3ce)
+
+![image](https://github.com/user-attachments/assets/cc8784f4-abcb-4373-9caa-e91323f0cf39)
+
+This one is rather rudimentary but you get the idea
+
+![image](https://github.com/user-attachments/assets/1a9714ae-99ad-490d-a135-1cd6ca411866)
 
 
