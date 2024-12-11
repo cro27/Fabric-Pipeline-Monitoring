@@ -1,0 +1,35 @@
+@concat(
+    '.set-or-append DFJobDetails with (folder="raw") <|
+let pipeid = parse_json(```'
+, pipeline().RunId
+, '```);
+let pipename = parse_json(```'
+, pipeline().PipelineName
+, '```);
+let activityid = parse_json(```'
+, activity('Copy data1').ActivityRunId
+, '```);
+let acttype = parse_json(```'
+, activity('Copy data1').ActivityType
+, '```);
+let actstatus = parse_json(```'
+, activity('Copy data1').Status
+, '```);
+let acterr = parse_json(```'
+, activity('Copy data1').Error
+, '```);
+let actstart = parse_json(```'
+, activity('Copy data1').ExecutionStartTime
+, '```);
+let actend = parse_json(```'
+, activity('Copy data1').ExecutionEndTime
+, '```);
+let actdur = parse_json(```'
+, activity('Copy data1').Duration
+, '```);
+let ActivityOutput = parse_json(```'
+, activity('Copy data1').output
+, '```);
+print RunID = tostring(pipeid), PipelineName = tostring(pipename), ActivityRunId = tostring(activityid), ActivityStatus = tostring(actstatus), ActivityErrors = tostring(acterr), Activitytype = tostring(acttype), ActivityStart = tostring(actstart), ActivityEnd = tostring(actend), ActivityDuration = tostring(actdur), Output = ActivityOutput
+'
+)
