@@ -7,28 +7,28 @@ let pipename = parse_json(```'
 , pipeline().PipelineName
 , '```);
 let activityid = parse_json(```'
-, activity('Copy data1').ActivityRunId
+, activity('<Replace With Activity Name>').ActivityRunId
 , '```);
 let acttype = parse_json(```'
-, activity('Copy data1').ActivityType
+, activity('<Replace With Activity Name>').ActivityType
 , '```);
 let actstatus = parse_json(```'
-, activity('Copy data1').Status
+, activity('<Replace With Activity Name>').Status
 , '```);
 let acterr = parse_json(```'
-, activity('Copy data1').Error
+, activity('<Replace With Activity Name>').Error
 , '```);
 let actstart = parse_json(```'
-, activity('Copy data1').ExecutionStartTime
+, activity('<Replace With Activity Name>').ExecutionStartTime
 , '```);
 let actend = parse_json(```'
-, activity('Copy data1').ExecutionEndTime
+, activity('<Replace With Activity Name>').ExecutionEndTime
 , '```);
 let actdur = parse_json(```'
-, activity('Copy data1').Duration
+, activity('<Replace With Activity Name>').Duration
 , '```);
 let ActivityOutput = parse_json(```'
-, activity('Copy data1').output
+, activity('<Replace With Activity Name>').output
 , '```);
 print RunID = tostring(pipeid), PipelineName = tostring(pipename), ActivityRunId = tostring(activityid), ActivityStatus = tostring(actstatus), ActivityErrors = tostring(acterr), Activitytype = tostring(acttype), ActivityStart = tostring(actstart), ActivityEnd = tostring(actend), ActivityDuration = tostring(actdur), Output = ActivityOutput
 '
