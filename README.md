@@ -23,6 +23,6 @@ The KQL script I have used has been uploaded as kql.txt
 
 The next step is to setup monitoring alerts. 
 Creating a queryset that filters pipeline activities on their activity status we can setup alerts when they have failed. 
-You can adjust u=your sampling frequency and type of alert action to suit your needs. 
+You can adjust your sampling frequency and type of alert action to suit your needs. 
 
 ![image](https://github.com/user-attachments/assets/d00eb76c-99b9-4c32-bfa9-0b35b05e3e71)
