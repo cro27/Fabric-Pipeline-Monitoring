@@ -26,3 +26,8 @@ Creating a queryset that filters pipeline activities on their activity status we
 You can adjust your sampling frequency and type of alert action to suit your needs. 
 
 ![image](https://github.com/user-attachments/assets/d00eb76c-99b9-4c32-bfa9-0b35b05e3e71)
+
+We can also setup a Power BI report on the table so that we have a monitoring dashboard for our Fabric Data Factory Pipelines. 
+![image](https://github.com/user-attachments/assets/d6407708-d3b0-49ea-9600-b2c09809b3ce)
+
+
