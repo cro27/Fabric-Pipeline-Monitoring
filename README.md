@@ -15,8 +15,14 @@ After connecting to the KQL database we use the the pipeline expression builder 
 
 ![image](https://github.com/user-attachments/assets/dc7a80ed-67a5-460e-a005-65d31344bd4d)
 
-In this example I have chosen to send the data to a file in the database but your could equally send the information to a table. 
+In this example I have chosen to send the data to a table in a folder called raw in the database. 
 
 ![image](https://github.com/user-attachments/assets/17674704-5925-411f-aa23-6e8ea3040bfe)
 
 The KQL script I have used has been uploaded as kql.txt
+
+The next step is to setup monitoring alerts. 
+Creating a queryset that filters pipeline activities on their activity status we can setup alerts when they have failed. 
+You can adjust u=your sampling frequency and type of alert action to suit your needs. 
+
+![image](https://github.com/user-attachments/assets/d00eb76c-99b9-4c32-bfa9-0b35b05e3e71)
