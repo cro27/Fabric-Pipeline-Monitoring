@@ -1,4 +1,4 @@
-# Microsoft-Fabric-Pipeline-Monitoring
+# Microsoft Fabric Pipeline Monitoring
 Repository for programmatic monitoring of Microsoft Fabric Data Factory pipelines
 
 Currently, monitoring of Fabric pipelines is online only through the Fabric portal. 
