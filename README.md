@@ -19,7 +19,7 @@ In this example I have chosen to send the data to a table called DFPipelineDetai
 
 ![image](https://github.com/user-attachments/assets/79eb4f2c-f938-4087-8594-38f271bc4ee9)
 
-The KQL script I have used has been uploaded as kql.txt
+The KQL script I have used has been uploaded as kql.txt. You can modify this with your Activity Names and copy and past into the expression builder.
 
 The next step is to setup monitoring alerts. 
 Creating a queryset that filters pipeline activities on their activity status we can setup alerts when they have failed, skipped or succeeded. In this example I am filtering on Failed activities. 
